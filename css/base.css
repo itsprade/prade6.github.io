@@ -1,0 +1,306 @@
+@font-face {
+  font-family: "CircularStd";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/CircularStd-Book.otf") format("opentype");
+}
+
+/* line 8, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+body {
+  scroll-behavior: smooth;
+  font-family: CircularStd;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* line 15, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+header {
+  box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.09);
+  background-color: #fff;
+  height: 80px;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 24, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.main-content {
+  padding: 20px 0;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+/* line 30, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* line 36, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.download-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 41, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sub-head-1 {
+  font-size: 52px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+/* line 47, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sub-head-2 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+/* line 52, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sub-head-3 {
+  font-size: 52px;
+  font-weight: 900;
+}
+
+/* line 57, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.content {
+  font-size: 20px;
+  color: #63738b;
+  line-height: 36px;
+}
+
+/* line 63, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sn-icons {
+  margin-top: 70px;
+}
+
+/* line 65, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sn-icons a {
+  color: #fff;
+}
+
+/* line 68, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sn-icons img {
+  width: 28px;
+  height: 28px;
+  margin-right: 40px;
+}
+
+/* line 75, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sn-icons-bottom {
+  margin-top: 30px;
+}
+
+/* line 77, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sn-icons-bottom a {
+  color: #fff;
+}
+
+/* line 80, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.sn-icons-bottom img {
+  width: 28px;
+  height: 28px;
+  margin-right: 40px;
+}
+
+/* line 87, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav {
+  padding: 28px 0;
+  width: 1140px;
+  margin: 0 auto;
+  font-size: 20px;
+  position: sticky;
+}
+
+/* line 93, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav .left-nav {
+  float: left;
+}
+
+/* line 95, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav .left-nav span {
+  margin-right: 30px;
+}
+
+/* line 97, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav .left-nav span a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+/* line 101, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav .left-nav span .active {
+  color: #000000 !important;
+}
+
+/* line 104, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav .left-nav span a:hover {
+  color: #000;
+  transition: 0.2s;
+}
+
+/* line 110, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav .cnt-dtls {
+  float: right;
+}
+
+/* line 112, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.top-nav .cnt-dtls span {
+  margin-right: 30px;
+}
+
+/* line 118, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.about {
+  padding-top: 240px;
+}
+
+/* line 120, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.about .about-dtls {
+  display: inline-block;
+  padding: 20px;
+  width: 50%;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+/* line 126, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.about .about-dtls div {
+  display: block;
+}
+
+/* line 129, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.about .about-dtls .cnt {
+  margin-top: 20px;
+}
+
+/* line 133, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.about .dis-pic {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+/* line 136, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.about .dis-pic img {
+  width: 456px;
+  height: 382px;
+}
+
+/* line 143, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.exp {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* line 146, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.exp .cnt {
+  margin-top: 20px;
+}
+
+/* line 149, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.exp .exp-list {
+  padding: 40px 0px;
+}
+
+/* line 151, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.exp .exp-list .item-icon-dtls {
+  width: 200px;
+  display: inline-block;
+}
+
+/* line 154, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.exp .exp-list .item-icon-dtls .wp-icon {
+  width: 156px;
+}
+
+/* line 157, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.exp .exp-list .item-icon-dtls .wp-desgn {
+  font-weight: 900;
+  color: #000;
+}
+
+/* line 162, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.exp .exp-list .content {
+  display: inline-block;
+  width: 800px;
+  vertical-align: top;
+}
+
+/* line 170, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.list-details {
+  margin-top: 50px;
+}
+
+/* line 173, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.list-details .list-item .grid-dis {
+  width: 400px;
+  height: 300px;
+  background: #c5cad1;
+  display: inline-block;
+}
+
+/* line 179, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.list-details .list-item .grid-des {
+  margin: 0px 48px;
+  width: 520px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 184, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.list-details .list-item .grid-des p {
+  margin-bottom: 0px;
+}
+
+/* line 187, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.list-details .list-item .grid-des a {
+  display: block;
+}
+
+/* line 194, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.clmn-view {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 90px;
+}
+
+/* line 200, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.clmn-view .clmn-item .clmn-dis-img {
+  border-radius: 10px;
+}
+
+/* line 202, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.clmn-view .clmn-item .clmn-dis-img img {
+  width: 520px;
+}
+
+/* line 212, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.blog-list {
+  padding: 76px 20px 20px 20px;
+}
+
+/* line 216, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+.work-list {
+  margin-top: 100px;
+  padding: 96px 0px 0px 20px;
+}
+
+/* line 221, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+a {
+  color: #0352CC;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* line 225, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+a:visited {
+  color: #0352CC;
+}
+
+/* line 228, /Users/pradeep-5947/Desktop/mysite/scss/base.scss */
+p {
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+}
+
+/*# sourceMappingURL=../css/base.map */
