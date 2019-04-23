@@ -8,7 +8,7 @@
 /* line 8, /Users/pradeep-5947/Downloads/prade6.github.io-master/scss/base.scss */
 body {
   scroll-behavior: smooth;
-  font-family: CircularStd;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   margin: 0;
 }
