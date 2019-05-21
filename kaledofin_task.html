@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        body {
+            margin: 0px;
+        }
+
         .holder {
             display: grid;
             align-items: center;
@@ -22,16 +26,17 @@
             padding: 20px;
         }
 
-        .holder>div:nth-child(3) {
+        .holder>div:nth-child(2) {
             background-color: #272727;
             padding: 150px 0px;
         }
+
         .holder>div:last-child {
             background-color: #272727;
             padding: 150px 0px;
         }
 
-        .holder>div:nth-child(2) {
+        .holder>div:nth-child(1) {
             padding: 150px 0px;
         }
 
@@ -40,15 +45,23 @@
             font-size: 32px;
             margin-bottom: 60px;
         }
+
+        .title {
+            padding: 150px;
+            text-align: center;
+            /*background-image: url('./img/z copy 4.png');*/
+            background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 
 <body>
+    <div class="title">
+        <img src="./img/logo_gif.gif">
+    </div>
     <div class="holder">
-        <div>
-
-            <img src="./img/logo_gif.gif">
-        </div>
         <div>
             <img src="./img/Group 10.png">
         </div>
