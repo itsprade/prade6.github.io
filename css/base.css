@@ -146,7 +146,10 @@ header {
 
 /* line 129, /Users/pradeep-5947/Downloads/prade6.github.io-master/scss/base.scss */
 .about {
-  padding-top: 240px;
+  padding-top: 160px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
 }
 
 /* line 132, /Users/pradeep-5947/Downloads/prade6.github.io-master/scss/base.scss */
@@ -177,7 +180,6 @@ header {
 /* line 152, /Users/pradeep-5947/Downloads/prade6.github.io-master/scss/base.scss */
 .about .dis-pic img {
   width: 456px;
-  height: 382px;
 }
 
 /* line 159, /Users/pradeep-5947/Downloads/prade6.github.io-master/scss/base.scss */
@@ -294,7 +296,7 @@ header {
 
 /* line 261, /Users/pradeep-5947/Downloads/prade6.github.io-master/scss/base.scss */
 .work-list {
-  margin-top: 100px;
+  margin-top: 160px;
   padding: 0px 0px 0px 20px;
 }
 
